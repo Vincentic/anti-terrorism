@@ -1,0 +1,123 @@
+*{
+	padding: 0;
+	border: 0;
+	margin: 0 ;
+}
+body{
+	margin: 0  auto;
+	font-family: "FZZDHJW-GB1-0";
+	background-color: #a2c5ff;
+}
+a{
+	text-decoration: none;
+}
+.header{
+    height:568px;
+    width:100%;
+    background-color: #000000;
+    background-size: 100%;
+    background-image: url('head.jpg');
+    background-repeat: no-repeat;
+}
+.header img{
+	margin: 0 auto;
+}
+.header .logo {
+    width: 222px;
+    height: 85px;
+    z-index: 1;
+}
+.container{
+	width: 100%;
+	height: 1270px;
+	margin-top: 60px;
+}
+.container .content{
+	width: 1020px;
+	height: 1169px;
+    margin-top: 50px;
+    margin: 0 auto;
+    margin-bottom: 51px;
+    background-image: url('sub_bg.jpg');
+    background-size: 100%;
+}
+.container .content p{
+	font-family: "FZZDHJW-GB1-0";
+	font-weight: bold;
+	font-size: 16px;
+	color: #d7dfe4;
+	line-height: 22px;
+}
+.container .content .title{
+	width: 100%;
+	height: 172px;
+	float: left;
+}
+.container .content .title p{
+	font-family: "FZZDHJW-GB1-0";
+	font-weight: bold;
+	font-size: 48px;
+	color: #d7dfe4;
+	padding-top: 78px;
+	padding-left: 64px;
+}
+.container .content .title .return{
+	width: 200px;
+    height: 38px;
+    padding-left: 824px;
+    padding-right: 124px;
+    padding-top: -20px;
+    float: left;
+}
+.container .content .title .return p{
+	font-size: 36px;
+	padding-top: 0;
+	padding-left: 0;
+}
+.container .content .conBox{
+	width: 100%;
+	height: 579px;
+	margin: 0 auto;
+}
+.container .content .conBox p{
+	padding-left: 88px;
+	padding-right: 103px;
+	text-indent: 2em;
+	word-spacing: 5em;
+	letter-spacing: 0.1em;
+}
+.container .content .imgBox{
+	width: 100%;
+	height: 318px;
+	margin: 0 auto;
+}
+.container .content .imgBox img{
+	width: 253px;
+	height: 282px;
+	margin-left: 148px;
+	margin-top: 295px;
+	margin-right: 25px;
+	float: left;
+}
+.footer{
+	width: 100%;
+	height: 100px;
+    background-color: #000000;
+    background-repeat: repeat;
+    background-size: 100%;
+}
+.footer .contact{
+	width: 1000px;
+	height: 60px;
+	padding-top: 30px;
+	margin: 0 auto;	
+	background-color: #000000;
+}
+.footer p{
+	text-align: center;
+	font-family: "FZZDHJW-GB1-0";
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 26px;
+	color: #fff;
+}
